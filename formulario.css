@@ -1,0 +1,173 @@
+*, ::before, ::after{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+      
+    background-color: rgba(250, 50, 100, 0.4);
+    background-image: url(Androides.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    
+}
+
+form{
+    
+    background: rgba(250,250,250, 0.2);
+    padding: 40px 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px white;
+    
+}
+
+.form{
+    
+    width: 100%;
+    padding: 0 5px;
+    
+}
+
+h1{
+    
+ color: lightBlue;
+ text-shadow: 1px 1px 1px Blue;
+ box-shadow: 1px 3px 10px lightBlue;
+ font-size: 25px;
+ text-align: center;
+ margin: 20px 0px 20px 0px;
+    
+}
+
+.grupo{
+    
+    padding: 5px;
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+input{
+    
+    background: none;
+    border: none;
+    border-bottom: 1px solid #49454567;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    
+}
+
+label{
+    
+    position: absolute;
+    display:block;
+    color: olivegreen;
+    top: 10px;
+    left:5px;
+    transition: 0.7s ease all;
+    
+}
+
+input:focus{
+      
+ outline: none;
+ color: darkOliveGreen;
+      
+}
+
+input:focus~label, input:valid~label{
+      
+      top: -14px;
+      left: 2px;
+      font-size: 13px;
+      color: darkOliveGreen;
+      outline: none;
+      text-shadow: 1px 1px 1px black;
+      
+}
+
+.linea{
+      
+      position: relative;
+      display: block;
+      width:0%;
+      height: 2px;
+      background: none;
+      transition: 1s ease all;
+      
+}
+
+input:focus~.linea{
+      
+      width:100%;
+      background: darkOliveGreen;     
+      
+}
+
+button{
+      
+  display: block;
+  color: white;
+  background: none;
+  font-weight: 500;
+  padding: 5px 1px 5px 1px;
+  text-align: center;
+  width:100%;
+  font-size: 28px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 1px 1px 6px rgba(0,0,0,0.5);
+
+}
+
+button:hover{
+      
+      color: darkOliveGreen;
+      font-weight: 700;
+      text-shadow: 1px 1px 2px white;
+      
+}
+
+.warnings{
+      
+       text-align: center;  
+       margin: 10px 0px;
+       color:darkGray;
+       font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
